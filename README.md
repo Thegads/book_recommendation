@@ -1,6 +1,6 @@
 # Um recomendador de Livros
 
-> **[Link - Heroku](qweeqw)**<br />
+> **[Heroku](https://book-rec-nlp.herokuapp.com/)**<br />
 > **[LinkedIn](https://www.linkedin.com/in/gustavo-röttgering-5058b554/)**
 
 ## Sobre o Projeto

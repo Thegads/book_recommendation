@@ -12,10 +12,10 @@
 > O que foi feito:
 
  1. Com a ideia em mãos, escolhi um site onde poderia procurar por livros e tivesse uma grande quantidade de títulos. O escolhido foi o site da Amazon. Nessa etapa, através de um webscrapping, foi extraído a lista de todos os livros retornados na pesquisa da query, e depois os dados de cada livro.
- 2. Com os dados extraídos, foi criado um data set para treinar os modelos de Machone Learning.
- 3. Para poder as anotações dos exemplos do Data Set, ou seja, classificar a nossa variável, foi utilizado o Active Learning para auxiliar, pois esse recurso nos ajuda a poupar tempo e recursos.
+ 2. Com os dados extraídos, foi criado um data set para treinar os modelos de Machine Learning.
+ 3. Para poder fazer as anotações dos exemplos do Data Set, ou seja, classificar a nossa variável, foi utilizado o Active Learning para auxiliar, pois esse recurso nos ajuda a poupar tempo e recursos.
  4. Tendo os dados já tratados e classificados, criei 3 modelos: **Random Forest**, **LightGBM** e **Logistic Regression**.(No final, por problemas na hora de criar o container, foi somente utilizado o **LightGBM**).
- 5. Para tunar o modelo, foi utilizado o método Bayesian Optimization que dados uma série de parâmatros, é retornado o que traz o melhor resultado dentro do spectro de valores.
+ 5. Para tunar o modelo, foi utilizado o método **Bayesian Optimization**, em que dado uma série de parâmatros, retorna o melhor resultado dentro do spectro de valores.
  6. Finalizando o processo, com a ajuda do Docker, é criado um container e hospedado no [Heroku](https://book-rec-nlp.herokuapp.com/) para que todos possam acessar.
  
  ## Repositório

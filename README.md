@@ -47,3 +47,56 @@
 ## Considerações Finais
 
   Agradecer novamente ao Mario Filho pelo execelente curso e materiais gerados gratuitamente para que todos possam ter acesso. E pelo apoio na parte final do [Rodrigo Fragoso](https://www.linkedin.com/in/rodrigo-a-fragoso/).
+
+
+# ENGLISH VERSION
+
+# Book Recommendator
+
+> **[Heroku](https://book-rec-nlp.herokuapp.com/)**<br />
+> **[LinkedIn](https://www.linkedin.com/in/gustavo-röttgering-5058b554/)**
+
+## About the Project
+
+> Why a book recommendator?
+
+ - Since I've started my journey into the data world, I haeve read several books related to Data Science. Based on this, I have decided to make a recommendator on books, returning its relevance on the theme, in this casa Natual Language Processing. It was my first start to end(hypothesis to deploy) project, based on the great course by [Mario Filho](https://www.linkedin.com/in/mariofilho/).
+ 
+> Stages:
+
+ 1. With the idea on my mind, I chose a site with a great variety and a great number of titles. The site was amazon.com. Firstly was to scrape a list of all the titles in the query page then the book data from each book.
+ 2. With the scrapped data, a dataset was created in order to train the Machine Learning model.
+ 3. To set up our variable, this process was made with the help of **Active Learning** which help save time and resources.
+ 4. With the processed data and the variable set, was created three models: **Random Forest**, **LightGBM** e **Logistic Regression**.(For production, I had some problems with the models so it was only used **LightGBM**).
+ 5. For model improvement was used **Bayesian Optimization** method, with a given set of parameters, returns the best output from those values.
+ 6. Deploying was made with Docker and hosted by[Heroku](https://book-rec-nlp.herokuapp.com/).
+ 
+ ## Repository
+ 
+ - Análise de dados: Notebooks for scrapping, analisys and models.
+ - Deploy: files to create the container and deploy.
+ 
+ ## Tools and Libraries
+ 
+ - Scikit-Learn
+ - Scikit-Optimize
+ - Pandas
+ - Numpy
+ - Flask
+ - Requests
+ - BeautifulSoup4
+ - Selenium
+ - Docker
+ - Heroku
+ 
+ ## Work in Progress
+ 
+ - Project based on a case study from Mario Filho's course, with several problems along the way, the project has many wasy of improvements:
+  1. Some image links hasn't been extract correctly in production, what didn't happen locally.
+  2. The model returns a score way similar to each result. This should be result of not being able to deploy the ensembled model.
+  3. The models could improve greatly. It was a first try which I wanted to make a project from beginning to end.
+  4. Add more features and data.
+  
+## Summarizing
+
+  Thank again Mario Filho for the excelent course and all free material that he makes available for everybody and lastly to [Rodrigo Fragoso](https://www.linkedin.com/in/rodrigo-a-fragoso/) for his help on the last part of the project and improvements.

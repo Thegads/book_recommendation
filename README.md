@@ -100,3 +100,7 @@
 ## Summarizing
 
   Thank again Mario Filho for the excelent course and all free material that he makes available for everybody and lastly to [Rodrigo Fragoso](https://www.linkedin.com/in/rodrigo-a-fragoso/) for his help on the last part of the project and improvements.
+  
+ ## Version 0.1
+ 
+  Add a button to receive an input and return the page with the new results of that input. It works partially. On the background, it is received, and start the processing for the new data, but the page is not returned. Still need some work on that part.

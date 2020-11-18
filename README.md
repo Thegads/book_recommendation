@@ -47,6 +47,11 @@
 ## Considerações Finais
 
   Agradecer novamente ao Mario Filho pelo execelente curso e materiais gerados gratuitamente para que todos possam ter acesso. E pelo apoio na parte final do [Rodrigo Fragoso](https://www.linkedin.com/in/rodrigo-a-fragoso/).
+  
+## Versão 0.1
+ 
+  Adicionado um botão para receber uma informação na qual irá gerar uma nova página com essa informação. Funciona parcialmente. A informação é recebida, começa a extração das novas informações mas a página não é retornada. Precisa de algum trabalho para funcionar corretamente.
+  [New APP](https://limitless-ridge-12360.herokuapp.com/)
 
 
 # ENGLISH VERSION
@@ -104,3 +109,4 @@
  ## Version 0.1
  
   Add a button to receive an input and return the page with the new results of that input. It works partially. On the background, it is received, and start the processing for the new data, but the page is not returned. Still need some work on that part.
+  [New APP](https://limitless-ridge-12360.herokuapp.com/)
